@@ -1,5 +1,4 @@
 #include <iostream>
-#include <string>
 using namespace std;
 
 template <typename T>
@@ -33,9 +32,9 @@ class List {
 
 template <typename T>
 List<T>::List() {
-    n = 0;
     head = nullptr;
     it = &head;
+    n = 0;
 }
 
 template <typename T>
